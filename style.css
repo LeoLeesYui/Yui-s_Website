@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #f05a28;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .logo p {
+    margin: 5px 0 15px;
+}
+
+header .tagline h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+header .tagline p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+main .support h3 {
+    font-size: 28px;
+    color: #f05a28;
+}
+
+main .support p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.stat-item {
+    background-color: #4d774e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.stat-item h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.stat-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
